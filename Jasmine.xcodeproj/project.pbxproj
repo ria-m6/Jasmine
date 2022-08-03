@@ -14,6 +14,12 @@
 		7A96E33528999C3700BBE095 /* Jasmine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A96E33328999C3700BBE095 /* Jasmine.xcdatamodeld */; };
 		7A96E33728999C3A00BBE095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E33628999C3A00BBE095 /* Assets.xcassets */; };
 		7A96E33A28999C3A00BBE095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E33828999C3A00BBE095 /* LaunchScreen.storyboard */; };
+		7A96E342289ABB4600BBE095 /* Screen Shot 2022-08-03 at 7.13.44 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E341289ABB4600BBE095 /* Screen Shot 2022-08-03 at 7.13.44 AM.png */; };
+		7A96E346289ABE0500BBE095 /* Top.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E345289ABE0400BBE095 /* Top.png */; };
+		7A96E348289ABE0B00BBE095 /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E347289ABE0B00BBE095 /* Bottom.png */; };
+		7A96E34A289ABEE000BBE095 /* Top2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E349289ABEE000BBE095 /* Top2.png */; };
+		7A96E34C289ABEEE00BBE095 /* Bottom2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E34B289ABEEE00BBE095 /* Bottom2.png */; };
+		7A96E371289ACE9E00BBE095 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		7A96E33628999C3A00BBE095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A96E33928999C3A00BBE095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A96E33B28999C3A00BBE095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A96E341289ABB4600BBE095 /* Screen Shot 2022-08-03 at 7.13.44 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 7.13.44 AM.png"; sourceTree = "<group>"; };
+		7A96E345289ABE0400BBE095 /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
+		7A96E347289ABE0B00BBE095 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
+		7A96E349289ABEE000BBE095 /* Top2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top2.png; sourceTree = "<group>"; };
+		7A96E34B289ABEEE00BBE095 /* Bottom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom2.png; sourceTree = "<group>"; };
+		7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +74,16 @@
 				7A96E32C28999C3700BBE095 /* SceneDelegate.swift */,
 				7A96E32E28999C3700BBE095 /* ViewController.swift */,
 				7A96E33028999C3700BBE095 /* Main.storyboard */,
+				7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */,
 				7A96E33628999C3A00BBE095 /* Assets.xcassets */,
 				7A96E33828999C3A00BBE095 /* LaunchScreen.storyboard */,
 				7A96E33B28999C3A00BBE095 /* Info.plist */,
 				7A96E33328999C3700BBE095 /* Jasmine.xcdatamodeld */,
+				7A96E341289ABB4600BBE095 /* Screen Shot 2022-08-03 at 7.13.44 AM.png */,
+				7A96E345289ABE0400BBE095 /* Top.png */,
+				7A96E347289ABE0B00BBE095 /* Bottom.png */,
+				7A96E349289ABEE000BBE095 /* Top2.png */,
+				7A96E34B289ABEEE00BBE095 /* Bottom2.png */,
 			);
 			path = Jasmine;
 			sourceTree = "<group>";
@@ -128,8 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A96E348289ABE0B00BBE095 /* Bottom.png in Resources */,
 				7A96E33A28999C3A00BBE095 /* LaunchScreen.storyboard in Resources */,
 				7A96E33728999C3A00BBE095 /* Assets.xcassets in Resources */,
+				7A96E34A289ABEE000BBE095 /* Top2.png in Resources */,
+				7A96E346289ABE0500BBE095 /* Top.png in Resources */,
+				7A96E34C289ABEEE00BBE095 /* Bottom2.png in Resources */,
+				7A96E342289ABB4600BBE095 /* Screen Shot 2022-08-03 at 7.13.44 AM.png in Resources */,
 				7A96E33228999C3700BBE095 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A96E371289ACE9E00BBE095 /* ResourcesViewController.swift in Sources */,
 				7A96E32F28999C3700BBE095 /* ViewController.swift in Sources */,
 				7A96E32B28999C3700BBE095 /* AppDelegate.swift in Sources */,
 				7A96E32D28999C3700BBE095 /* SceneDelegate.swift in Sources */,
