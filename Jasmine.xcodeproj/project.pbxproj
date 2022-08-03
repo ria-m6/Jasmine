@@ -20,6 +20,8 @@
 		7A96E34A289ABEE000BBE095 /* Top2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E349289ABEE000BBE095 /* Top2.png */; };
 		7A96E34C289ABEEE00BBE095 /* Bottom2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E34B289ABEEE00BBE095 /* Bottom2.png */; };
 		7A96E371289ACE9E00BBE095 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */; };
+		C337CA43289AE86100EDFF5F /* FeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337CA42289AE86100EDFF5F /* FeelingViewController.swift */; };
+		C337CA49289AF44D00EDFF5F /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		7A96E349289ABEE000BBE095 /* Top2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top2.png; sourceTree = "<group>"; };
 		7A96E34B289ABEEE00BBE095 /* Bottom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom2.png; sourceTree = "<group>"; };
 		7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		C337CA42289AE86100EDFF5F /* FeelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingViewController.swift; sourceTree = "<group>"; };
+		C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				7A96E32C28999C3700BBE095 /* SceneDelegate.swift */,
 				7A96E32E28999C3700BBE095 /* ViewController.swift */,
 				7A96E33028999C3700BBE095 /* Main.storyboard */,
+				C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */,
+				C337CA42289AE86100EDFF5F /* FeelingViewController.swift */,
 				7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */,
 				7A96E33628999C3A00BBE095 /* Assets.xcassets */,
 				7A96E33828999C3A00BBE095 /* LaunchScreen.storyboard */,
@@ -165,10 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A96E371289ACE9E00BBE095 /* ResourcesViewController.swift in Sources */,
+				C337CA49289AF44D00EDFF5F /* ExerciseViewController.swift in Sources */,
 				7A96E32F28999C3700BBE095 /* ViewController.swift in Sources */,
 				7A96E32B28999C3700BBE095 /* AppDelegate.swift in Sources */,
 				7A96E32D28999C3700BBE095 /* SceneDelegate.swift in Sources */,
 				7A96E33528999C3700BBE095 /* Jasmine.xcdatamodeld in Sources */,
+				C337CA43289AE86100EDFF5F /* FeelingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
