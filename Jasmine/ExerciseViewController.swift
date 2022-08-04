@@ -8,8 +8,9 @@
 import UIKit
 
 class ExerciseViewController: UIViewController {
-
+    
     @IBOutlet weak var MoreInfo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,7 +18,7 @@ class ExerciseViewController: UIViewController {
     
     @IBAction func MoreInfo(_ sender: Any) {
         let url = URL (string:
-        "youtube.com")!
+        "https://www.youtube.com/results?search_query=home+workouts")!
         UIApplication.shared.open (url)
     }
     

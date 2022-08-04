@@ -28,6 +28,13 @@
 		7A96E3AA289C283000BBE095 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A96E3A8289C283000BBE095 /* music.png */; };
 		C337CA43289AE86100EDFF5F /* FeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337CA42289AE86100EDFF5F /* FeelingViewController.swift */; };
 		C337CA49289AF44D00EDFF5F /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */; };
+		C3AF09ED289C398A0058F32C /* JournalingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF09EC289C398A0058F32C /* JournalingViewController.swift */; };
+		C3AF09EF289C39B10058F32C /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF09EE289C39B10058F32C /* FriendViewController.swift */; };
+		C3AF09F1289C39CF0058F32C /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF09F0289C39CF0058F32C /* ColorViewController.swift */; };
+		C3AF09F3289C39D40058F32C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF09F2289C39D40058F32C /* MusicViewController.swift */; };
+		C3AF0A34289C3A810058F32C /* NapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF0A33289C3A810058F32C /* NapViewController.swift */; };
+		C3AF0A36289C3A880058F32C /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF0A35289C3A880058F32C /* WaterViewController.swift */; };
+		C3AF0A38289C3AA40058F32C /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF0A37289C3AA40058F32C /* WalkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +61,13 @@
 		7A96E3A8289C283000BBE095 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		C337CA42289AE86100EDFF5F /* FeelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingViewController.swift; sourceTree = "<group>"; };
 		C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		C3AF09EC289C398A0058F32C /* JournalingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingViewController.swift; sourceTree = "<group>"; };
+		C3AF09EE289C39B10058F32C /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		C3AF09F0289C39CF0058F32C /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		C3AF09F2289C39D40058F32C /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		C3AF0A33289C3A810058F32C /* NapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapViewController.swift; sourceTree = "<group>"; };
+		C3AF0A35289C3A880058F32C /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		C3AF0A37289C3AA40058F32C /* WalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,13 @@
 				7A96E32C28999C3700BBE095 /* SceneDelegate.swift */,
 				7A96E32E28999C3700BBE095 /* ViewController.swift */,
 				7A96E33028999C3700BBE095 /* Main.storyboard */,
+				C3AF0A37289C3AA40058F32C /* WalkViewController.swift */,
+				C3AF0A33289C3A810058F32C /* NapViewController.swift */,
+				C3AF0A35289C3A880058F32C /* WaterViewController.swift */,
+				C3AF09F0289C39CF0058F32C /* ColorViewController.swift */,
+				C3AF09F2289C39D40058F32C /* MusicViewController.swift */,
+				C3AF09EE289C39B10058F32C /* FriendViewController.swift */,
+				C3AF09EC289C398A0058F32C /* JournalingViewController.swift */,
 				C337CA48289AF44D00EDFF5F /* ExerciseViewController.swift */,
 				C337CA42289AE86100EDFF5F /* FeelingViewController.swift */,
 				7A96E370289ACE9E00BBE095 /* ResourcesViewController.swift */,
@@ -195,12 +216,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A96E371289ACE9E00BBE095 /* ResourcesViewController.swift in Sources */,
+				C3AF09ED289C398A0058F32C /* JournalingViewController.swift in Sources */,
 				C337CA49289AF44D00EDFF5F /* ExerciseViewController.swift in Sources */,
 				7A96E32F28999C3700BBE095 /* ViewController.swift in Sources */,
 				7A96E32B28999C3700BBE095 /* AppDelegate.swift in Sources */,
+				C3AF09F3289C39D40058F32C /* MusicViewController.swift in Sources */,
 				7A96E32D28999C3700BBE095 /* SceneDelegate.swift in Sources */,
+				C3AF09EF289C39B10058F32C /* FriendViewController.swift in Sources */,
+				C3AF0A36289C3A880058F32C /* WaterViewController.swift in Sources */,
+				C3AF0A34289C3A810058F32C /* NapViewController.swift in Sources */,
 				7A96E33528999C3700BBE095 /* Jasmine.xcdatamodeld in Sources */,
+				C3AF09F1289C39CF0058F32C /* ColorViewController.swift in Sources */,
 				C337CA43289AE86100EDFF5F /* FeelingViewController.swift in Sources */,
+				C3AF0A38289C3AA40058F32C /* WalkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

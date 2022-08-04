@@ -50,24 +50,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Start">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <font key="NSOriginalFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content=" Quiz">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Start Quiz">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -86,16 +70,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Resources">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Resources">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -122,16 +98,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="About Us">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="About Us">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -303,16 +271,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Sad">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Sad">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -332,16 +292,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Anxious">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Anxious">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -361,16 +313,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Stressed">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Stressed">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -390,16 +334,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Angry">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Angry">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -610,16 +546,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="School/Work">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="School/Work" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -639,16 +567,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Family/Friends">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Family/Friends" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -668,16 +588,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Weather">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Weather" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -697,16 +609,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mental Illness">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Mental Illness" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -726,16 +630,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Politics">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Politics" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -755,16 +651,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Other">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Other" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -963,10 +851,11 @@
             </objects>
             <point key="canvasLocation" x="1157" y="1493"/>
         </scene>
-        <!--View Controller-->
+        <!--Color View Controller-->
         <scene sceneID="e1x-gc-ZI4">
             <objects>
-                <viewController id="XOp-6m-f38" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqD-lA-byo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="XOp-6m-f38" customClass="ColorViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wxt-pT-CKi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1019,15 +908,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1035,6 +919,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="InfoButton:" destination="XOp-6m-f38" eventType="touchUpInside" id="fNV-Rs-Zfk"/>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="6gt-Bb-baj"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="wGN-Vk-AUY"/>
                                 </connections>
@@ -1043,19 +928,29 @@
                                 <rect key="frame" x="65" y="348" width="285" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js2-zc-L6n">
+                                <rect key="frame" x="100" y="612" width="216" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n2a-th-ta1"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="ColorInfo" destination="Js2-zc-L6n" id="ezp-Kd-nBK"/>
+                        <outlet property="ColorInfoButton" destination="EKi-q7-Pk8" id="wBP-au-kPC"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cqD-lA-byo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1867" y="1493"/>
+            <point key="canvasLocation" x="1866.6666666666667" y="1492.6339285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Music View Controller-->
         <scene sceneID="L43-AS-ikx">
             <objects>
-                <viewController id="MKr-Pj-DFV" sceneMemberID="viewController">
+                <viewController id="MKr-Pj-DFV" customClass="MusicViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSu-D0-oYh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1074,15 +969,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1090,6 +980,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="InfoButton:" destination="MKr-Pj-DFV" eventType="touchUpInside" id="fl8-1P-SFQ"/>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="F7J-2j-0uu"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Rub-L4-xhe"/>
                                 </connections>
@@ -1132,10 +1023,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGx-Jk-LVu">
+                                <rect key="frame" x="99" y="612" width="216" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GMZ-Sy-01R"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="musicInfo" destination="mGx-Jk-LVu" id="WSl-n2-ndz"/>
+                        <outlet property="musicInfoButton" destination="ads-09-rWM" id="Pwj-BM-L5G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mtc-jV-SYm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1173,16 +1075,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="School/Work">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="School/Work" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1202,16 +1096,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Family/Friends">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Family/Friends" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1231,16 +1117,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Weather">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Weather" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1260,16 +1138,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mental Illness">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Mental Illness" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1289,16 +1159,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Politics">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Politics" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1318,16 +1180,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Other">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Other" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1516,10 +1370,10 @@
             </objects>
             <point key="canvasLocation" x="1138" y="2188"/>
         </scene>
-        <!--View Controller-->
+        <!--Nap View Controller-->
         <scene sceneID="1Zq-dn-ft7">
             <objects>
-                <viewController id="TSO-Gn-G1U" sceneMemberID="viewController">
+                <viewController id="TSO-Gn-G1U" customClass="NapViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DYt-8y-7vW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1572,15 +1426,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1588,6 +1437,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="InfoButton:" destination="TSO-Gn-G1U" eventType="touchUpInside" id="6Pp-dG-X2R"/>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="1US-JO-VFp"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="fYu-af-qhK"/>
                                 </connections>
@@ -1596,25 +1446,36 @@
                                 <rect key="frame" x="65" y="344" width="285" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6r-s5-yM2">
+                                <rect key="frame" x="99" y="573" width="216" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b1B-T0-Vec"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="NapInfo" destination="e6r-s5-yM2" id="ZVF-71-71Y"/>
+                        <outlet property="NapInfoButton" destination="2IW-1t-WkQ" id="A56-UT-VdU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K5C-Kc-8rJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1866.6666666666667" y="2187.7232142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Water View Controller-->
         <scene sceneID="5fR-xJ-gSF">
             <objects>
-                <viewController id="KOX-VR-xr7" sceneMemberID="viewController">
+                <viewController id="KOX-VR-xr7" customClass="WaterViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxE-ry-BcK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Mh-Jq-wjq">
-                                <rect key="frame" x="124" y="661" width="383" height="235"/>
+                                <rect key="frame" x="122" y="661" width="383" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="T4S-JV-xWe">
@@ -1656,20 +1517,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKx-Qy-I88">
-                                <rect key="frame" x="123" y="627" width="170" height="70"/>
+                                <rect key="frame" x="123" y="640" width="170" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1679,20 +1535,32 @@
                                 <connections>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="1GG-3e-iXc"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="NAb-J4-TST"/>
+                                    <action selector="waterButton:" destination="KOX-VR-xr7" eventType="touchUpInside" id="Sxn-Id-ith"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water.png" translatesAutoresizingMaskIntoConstraints="NO" id="7dv-Tg-tPw">
                                 <rect key="frame" x="66" y="363" width="285" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gl8-oI-OMv">
+                                <rect key="frame" x="93" y="627" width="230" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ump-M9-cXq"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="waterBenefits" destination="Gl8-oI-OMv" id="p2Y-h2-VU7"/>
+                        <outlet property="waterButton" destination="rKx-Qy-I88" id="BrE-Dz-Q1F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvH-7a-m9R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2612" y="2188"/>
+            <point key="canvasLocation" x="2611.594202898551" y="2187.7232142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="doh-Hz-6Qo">
@@ -1726,16 +1594,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="School/Work">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="School/Work" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1755,16 +1615,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Family/Friends">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Family/Friends" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1784,16 +1636,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Weather">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Weather" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1813,16 +1657,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mental Illness">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Mental Illness" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1842,16 +1678,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Politics">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Politics" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1871,16 +1699,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Other">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Other" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1943,16 +1763,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Yes">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1972,16 +1784,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="No">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="No">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -2026,16 +1830,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Yes">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -2055,16 +1851,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="No">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="No">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -2101,10 +1889,10 @@
             </objects>
             <point key="canvasLocation" x="1157" y="2846"/>
         </scene>
-        <!--View Controller-->
+        <!--Walk View Controller-->
         <scene sceneID="fPI-tA-g6z">
             <objects>
-                <viewController id="fPH-Xh-2YN" sceneMemberID="viewController">
+                <viewController id="fPH-Xh-2YN" customClass="WalkViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vjq-rC-YvK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2151,21 +1939,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZD-ve-adx">
-                                <rect key="frame" x="127" y="622" width="170" height="70"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="walkingImage" translatesAutoresizingMaskIntoConstraints="NO" id="Hne-Mo-hum">
+                                <rect key="frame" x="65" y="366" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8U-79-aG1">
+                                <rect key="frame" x="122" y="630" width="170" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2173,18 +1960,27 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="YzS-Pl-MUz"/>
-                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="fwx-V9-dc7"/>
+                                    <action selector="InfoButton:" destination="fPH-Xh-2YN" eventType="touchUpInside" id="Dvl-cE-OpE"/>
+                                    <action selector="InfoButton:" destination="TSO-Gn-G1U" eventType="touchUpInside" id="vC1-F7-pWv"/>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="poy-MV-ixE"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="gs2-R3-Yt6"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="walkingImage" translatesAutoresizingMaskIntoConstraints="NO" id="Hne-Mo-hum">
-                                <rect key="frame" x="65" y="366" width="285" height="256"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEc-XH-hM1">
+                                <rect key="frame" x="99" y="595" width="216" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O6W-rp-nM9"/>
                         <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="WalkInfo" destination="jEc-XH-hM1" id="lco-mu-c8O"/>
+                        <outlet property="WalkInfoButton" destination="c8U-79-aG1" id="4BC-68-9B6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYo-ve-Y1L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2246,15 +2042,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2274,6 +2065,9 @@
                         <viewLayoutGuide key="safeArea" id="FVl-aI-nLK"/>
                         <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="MoreInfo" destination="RVc-I4-cZb" id="7ed-8j-fGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNi-Ef-Lgd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2360,10 +2154,10 @@
             </objects>
             <point key="canvasLocation" x="493" y="783"/>
         </scene>
-        <!--View Controller-->
+        <!--Friend View Controller-->
         <scene sceneID="kt2-Ny-HhL">
             <objects>
-                <viewController id="Lz4-3c-UDN" sceneMemberID="viewController">
+                <viewController id="Lz4-3c-UDN" customClass="FriendViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jIi-yU-0gP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2396,16 +2190,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2413,6 +2201,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="InfoButton:" destination="Lz4-3c-UDN" eventType="touchUpInside" id="adm-IX-FFt"/>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="tg3-cY-Hiu"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="VvB-Of-0l5"/>
                                 </connections>
@@ -2441,19 +2230,30 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="GvN-IE-M1n"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJ0-Is-AEK">
+                                <rect key="frame" x="99" y="560" width="216" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9aT-tg-zEZ"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="FriendInfo" destination="CJ0-Is-AEK" id="60H-DG-8QI"/>
+                        <outlet property="FriendInfoButton" destination="6p6-UN-DBq" id="cWn-5y-5aN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyw-jm-ZlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1237.68115942029" y="782.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Journaling View Controller-->
         <scene sceneID="Nhl-1f-dnE">
             <objects>
-                <viewController id="Aoy-Yb-PIV" sceneMemberID="viewController">
+                <viewController id="Aoy-Yb-PIV" customClass="JournalingViewController" customModule="Jasmine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5k-l2-a7M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2486,15 +2286,10 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="More Info">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="More Info">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2502,6 +2297,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="InfoButton:" destination="Aoy-Yb-PIV" eventType="touchUpInside" id="tWN-G5-ta1"/>
                                     <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="zhG-gk-5pU"/>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="PnE-tj-u75"/>
                                 </connections>
@@ -2530,10 +2326,21 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="wqn-eb-UlH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhH-Is-EtY">
+                                <rect key="frame" x="81" y="563" width="252" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hg9-nd-0yz"/>
                         <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="JournalInfo" destination="JhH-Is-EtY" id="VQP-tG-PKF"/>
+                        <outlet property="JournalInfoButton" destination="WDc-7n-BdS" id="XPx-UJ-Hmr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42E-90-FoP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2651,12 +2458,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fHG-xB-GRn"/>
-        <segue reference="mON-v8-iAo"/>
+        <segue reference="DpZ-Qs-O1S"/>
+        <segue reference="lhQ-2o-dBk"/>
         <segue reference="vbQ-Rw-oNz"/>
         <segue reference="XRr-gF-pIU"/>
         <segue reference="ReR-k9-QNw"/>
-        <segue reference="0uU-Ei-ajK"/>
+        <segue reference="vrA-N0-FCg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Bottom2.png" width="107" height="116"/>
