@@ -439,32 +439,6 @@
                                 <rect key="frame" x="-37" y="0.0" width="283" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odW-Qn-wfa">
-                                <rect key="frame" x="293" y="44" width="101" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="21" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Q8f-TY-iEa" kind="presentation" modalPresentationStyle="fullScreen" id="0Sq-Oc-3Br"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecu-CJ-P7R">
                                 <rect key="frame" x="23" y="111" width="368" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -485,16 +459,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="School/Work">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="School/Work" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -514,16 +480,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Family/Friends">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Family/Friends" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -543,16 +501,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Weather">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Weather" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -572,16 +522,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mental Illness">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Mental Illness" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -601,16 +543,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Politics">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Politics" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -630,16 +564,8 @@
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Other">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Other" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -704,6 +630,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="eIT-wi-TQ6"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="ZCn-MT-bgF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thw-wd-3wC">
@@ -732,6 +659,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="nXN-F6-sKf"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="SLU-Es-vWo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3f-8x-iIE">
@@ -760,6 +688,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="CQv-in-p86"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="j01-K6-ejb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyh-MV-rjj">
@@ -788,6 +717,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="seF-ht-edI"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="U7l-jy-xzN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB7-9W-aUk">
@@ -816,6 +746,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="O7Q-pX-Y0A"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="8J6-dq-TeU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwC-lR-tKG">
@@ -844,6 +775,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Tfw-T7-ODN"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="2y3-FS-n20"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzQ-E8-lCL">
@@ -870,6 +802,346 @@
             <point key="canvasLocation" x="-301" y="1484"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="MEj-MS-pKm">
+            <objects>
+                <viewController id="kFv-JU-sQg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PG5-PA-xz0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2W-8n-PAl">
+                                <rect key="frame" x="23" y="259" width="370" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Do you like coloring?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="45" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPk-Sk-U5F">
+                                <rect key="frame" x="90" y="453" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Dgw-ac-hIc"/>
+                                    <segue destination="XOp-6m-f38" kind="presentation" modalPresentationStyle="fullScreen" id="btj-TO-3Zd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gO-s4-Dka">
+                                <rect key="frame" x="90" y="534" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="No" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="wVH-g5-IKD"/>
+                                    <segue destination="46F-ea-UPN" kind="presentation" modalPresentationStyle="fullScreen" id="gyR-kD-bxy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5oh-l0-yQZ">
+                                <rect key="frame" x="120" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ePz-2B-Fr4">
+                                <rect key="frame" x="-38" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="log-NB-svA"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yOw-2W-ANW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="1493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y1z-Sm-Ej6">
+            <objects>
+                <viewController id="46F-ea-UPN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tse-5T-vw0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TL2-A1-Oab">
+                                <rect key="frame" x="0.0" y="259" width="414" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Do you like listening to music?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="45" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRT-7i-eLN">
+                                <rect key="frame" x="83" y="453" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="rhG-RT-AVE"/>
+                                    <segue destination="MKr-Pj-DFV" kind="presentation" modalPresentationStyle="fullScreen" id="ugK-rF-7cA"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZL0-hp-NaZ">
+                                <rect key="frame" x="113" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jhA-og-Jlo">
+                                <rect key="frame" x="-45" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEg-hf-KqV">
+                                <rect key="frame" x="83" y="550" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="No" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="WhD-jw-Uhd"/>
+                                    <segue destination="kGV-Uh-j3k" kind="presentation" modalPresentationStyle="fullScreen" id="lhQ-2o-dBk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JXP-ve-iJn"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OzG-DR-2vZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1157" y="1493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e1x-gc-ZI4">
+            <objects>
+                <viewController id="XOp-6m-f38" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wxt-pT-CKi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="WZU-mc-jQs">
+                                <rect key="frame" x="119" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJt-KD-h1p">
+                                <rect key="frame" x="-39" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieG-1T-1oM">
+                                <rect key="frame" x="293" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="LK9-ZT-nkP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ed3-1q-ao9">
+                                <rect key="frame" x="50" y="200" width="315" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Color!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKi-q7-Pk8">
+                                <rect key="frame" x="123" y="627" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="6gt-Bb-baj"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="wGN-Vk-AUY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coloring.png" translatesAutoresizingMaskIntoConstraints="NO" id="R4W-nL-w93">
+                                <rect key="frame" x="65" y="348" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n2a-th-ta1"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqD-lA-byo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1867" y="1493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L43-AS-ikx">
+            <objects>
+                <viewController id="MKr-Pj-DFV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hSu-D0-oYh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tmn-BI-pUi">
+                                <rect key="frame" x="121" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4q-4Q-6E3">
+                                <rect key="frame" x="-37" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ads-09-rWM">
+                                <rect key="frame" x="125" y="627" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="F7J-2j-0uu"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Rub-L4-xhe"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="music.png" translatesAutoresizingMaskIntoConstraints="NO" id="mao-nJ-dWy">
+                                <rect key="frame" x="67" y="348" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rI-jO-HDv">
+                                <rect key="frame" x="295" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="0uU-Ei-ajK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8C-4n-NNo">
+                                <rect key="frame" x="2" y="186" width="414" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Listen to music!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GMZ-Sy-01R"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtc-jV-SYm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2611.594202898551" y="1492.6339285714284"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="XNd-K6-59U">
             <objects>
                 <viewController id="PlF-Vn-qdl" sceneMemberID="viewController">
@@ -887,7 +1159,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="What is causing you to feel stressed?">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="32" name="Verdana-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -921,6 +1193,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="RZc-eK-lg7"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="B9K-SZ-qz6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIR-ZZ-fvQ">
@@ -949,6 +1222,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="dai-7g-DaG"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="CTW-oh-GEn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxU-uU-SQS">
@@ -977,6 +1251,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="7Mr-E4-dXE"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="Nqw-Ez-Du9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gv8-Tg-Slt">
@@ -1005,6 +1280,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Eee-AF-mzW"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="fs7-Bc-c6k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-Vt-ccj">
@@ -1033,6 +1309,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="teQ-kQ-KBF"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="PDS-DW-o2y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABn-Zn-YP0">
@@ -1061,6 +1338,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="voz-z6-xR6"/>
+                                    <segue destination="l3D-ae-7YV" kind="presentation" modalPresentationStyle="fullScreen" id="XRr-gF-pIU"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="96R-TC-92q">
@@ -1075,6 +1353,346 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lcb-2w-z3n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-301" y="2189"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P9o-Ie-WJz">
+            <objects>
+                <viewController id="l3D-ae-7YV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IZ7-qR-aXA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7rr-ZV-6LJ">
+                                <rect key="frame" x="119" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRW-Ua-9uz">
+                                <rect key="frame" x="-39" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxY-JI-SHU">
+                                <rect key="frame" x="22" y="259" width="370" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Do you like journalling?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="45" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAM-Cf-UKV">
+                                <rect key="frame" x="89" y="453" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="BI7-zC-da4"/>
+                                    <segue destination="Aoy-Yb-PIV" kind="presentation" modalPresentationStyle="fullScreen" id="DpZ-Qs-O1S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-vS-Wgx">
+                                <rect key="frame" x="89" y="534" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="No" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="w73-dN-ygX"/>
+                                    <segue destination="pzq-la-diM" kind="presentation" modalPresentationStyle="fullScreen" id="0Pf-f0-SAO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mLA-pF-lW2"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nfl-b8-uZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440.57971014492756" y="2187.7232142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ps3-Jz-Ivi">
+            <objects>
+                <viewController id="pzq-la-diM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JIL-LC-NVH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9j-nb-Ik5">
+                                <rect key="frame" x="88" y="453" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Oa2-rj-G5R"/>
+                                    <segue destination="TSO-Gn-G1U" kind="presentation" modalPresentationStyle="fullScreen" id="sAo-NR-h5k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3da-fs-7EV">
+                                <rect key="frame" x="88" y="534" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="No" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="6eg-BL-1DZ"/>
+                                    <segue destination="KOX-VR-xr7" kind="presentation" modalPresentationStyle="fullScreen" id="p6W-Jr-Xa3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="40p-Un-tyC">
+                                <rect key="frame" x="118" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="LxA-Ux-w5m">
+                                <rect key="frame" x="-40" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U3-7X-NGP">
+                                <rect key="frame" x="20" y="225" width="370" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Would you like to take a nap?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="45" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q9R-Sv-Ave"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYF-5W-YIO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="2188"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Zq-dn-ft7">
+            <objects>
+                <viewController id="TSO-Gn-G1U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DYt-8y-7vW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="QGN-Sr-HnO">
+                                <rect key="frame" x="123" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ff6-Yz-Bdp">
+                                <rect key="frame" x="-35" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjg-SH-RCh">
+                                <rect key="frame" x="297" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ktP-4V-azS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hR4-4N-yYj">
+                                <rect key="frame" x="50" y="219" width="315" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Take a nap!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IW-1t-WkQ">
+                                <rect key="frame" x="122" y="608" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="1US-JO-VFp"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="fYu-af-qhK"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 8.47.41 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="nDt-pb-NeB">
+                                <rect key="frame" x="65" y="344" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b1B-T0-Vec"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5C-Kc-8rJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866.6666666666667" y="2187.7232142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5fR-xJ-gSF">
+            <objects>
+                <viewController id="KOX-VR-xr7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sxE-ry-BcK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Mh-Jq-wjq">
+                                <rect key="frame" x="124" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="T4S-JV-xWe">
+                                <rect key="frame" x="-34" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-TR-aOR">
+                                <rect key="frame" x="298" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="WDR-qm-bZk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nR-Bh-bzQ">
+                                <rect key="frame" x="26" y="199" width="363" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Drink water!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKx-Qy-I88">
+                                <rect key="frame" x="123" y="627" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="1GG-3e-iXc"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="NAb-J4-TST"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water.png" translatesAutoresizingMaskIntoConstraints="NO" id="7dv-Tg-tPw">
+                                <rect key="frame" x="66" y="363" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ump-M9-cXq"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JvH-7a-m9R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="2188"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="doh-Hz-6Qo">
@@ -1374,6 +1992,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Mh8-BU-OId"/>
+                                    <segue destination="kFv-JU-sQg" kind="presentation" modalPresentationStyle="fullScreen" id="ReR-k9-QNw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1427,7 +2046,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Rn6-Ly-ApK"/>
-                                    <segue destination="h8A-xK-li1" kind="presentation" modalPresentationStyle="fullScreen" id="GCC-6h-Izr"/>
+                                    <segue destination="fPH-Xh-2YN" kind="presentation" modalPresentationStyle="fullScreen" id="NFX-Pu-7cg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WC-oa-Dsa">
@@ -1456,6 +2075,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="B5w-7x-Veg"/>
+                                    <segue destination="pS2-zE-22x" kind="presentation" modalPresentationStyle="fullScreen" id="yyg-3J-Y7V"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWV-HK-3X4">
@@ -1482,103 +2102,6 @@
             <point key="canvasLocation" x="1157" y="2846"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="B0s-Eb-FtY">
-            <objects>
-                <viewController id="h8A-xK-li1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="M0i-Wp-Dkp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7c8-kh-L16">
-                                <rect key="frame" x="-32" y="0.0" width="283" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IZ-zt-piQ">
-                                <rect key="frame" x="23" y="143" width="368" height="186"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Would you like to go on a walk?">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="42" name="Verdana-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fxN-Hb-MM1">
-                                <rect key="frame" x="112" y="661" width="383" height="235"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvX-V0-0FT">
-                                <rect key="frame" x="119" y="366" width="170" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Yes">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="y0N-tf-hlm"/>
-                                    <segue destination="fPH-Xh-2YN" kind="presentation" modalPresentationStyle="fullScreen" id="dC7-3O-hG9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKv-Ov-dnb">
-                                <rect key="frame" x="119" y="516" width="170" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="No">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="31" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="4wv-x6-nOG"/>
-                                    <segue destination="pS2-zE-22x" kind="presentation" modalPresentationStyle="fullScreen" id="raL-pe-wYa"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Jzh-de-3uK"/>
-                        <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pmq-PQ-Bew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1867" y="2846"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="fPI-tA-g6z">
             <objects>
                 <viewController id="fPH-Xh-2YN" sceneMemberID="viewController">
@@ -1586,22 +2109,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxm-pw-sDy">
-                                <rect key="frame" x="23" y="123" width="368" height="186"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="72i-kL-X6h">
+                                <rect key="frame" x="118" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pJW-ZV-8F0">
+                                <rect key="frame" x="-40" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZZ-K1-3bX">
+                                <rect key="frame" x="292" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="uHm-Yl-Xwf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf0-0b-ObO">
+                                <rect key="frame" x="33" y="204" width="348" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Walk">
+                                    <fragment content="Go for a walk!">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="42" name="Verdana-Bold"/>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="walkingImage" translatesAutoresizingMaskIntoConstraints="NO" id="OXw-zo-ZQv">
-                                <rect key="frame" x="124" y="271" width="166" height="282"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZD-ve-adx">
+                                <rect key="frame" x="127" y="622" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="YzS-Pl-MUz"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="fwx-V9-dc7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="walkingImage" translatesAutoresizingMaskIntoConstraints="NO" id="Hne-Mo-hum">
+                                <rect key="frame" x="65" y="366" width="285" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1611,7 +2188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYo-ve-Y1L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2612" y="2846"/>
+            <point key="canvasLocation" x="1867" y="2846"/>
         </scene>
         <!--Exercise View Controller-->
         <scene sceneID="cTT-qA-qXR">
@@ -1621,13 +2198,191 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAX-fd-795">
-                                <rect key="frame" x="23" y="129" width="368" height="186"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zmk-Yw-Wgl">
+                                <rect key="frame" x="116" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fC3-RL-deD">
+                                <rect key="frame" x="-42" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25b-FI-Il9">
+                                <rect key="frame" x="290" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="vrA-N0-FCg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bA9-8X-eZP">
+                                <rect key="frame" x="-8" y="164" width="422" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Exercise">
+                                    <fragment content="Do an indoor workout!">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVc-I4-cZb">
+                                <rect key="frame" x="122" y="662" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="WhV-hL-h82"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="raJ-3c-fhb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exerciseImage" translatesAutoresizingMaskIntoConstraints="NO" id="n89-Ha-dkq">
+                                <rect key="frame" x="61" y="398" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FVl-aI-nLK"/>
+                        <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNi-Ef-Lgd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="2846"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6LS-UA-tts">
+            <objects>
+                <viewController id="kGV-Uh-j3k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zds-ol-btB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dql-l9-fCU">
+                                <rect key="frame" x="23" y="207" width="368" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Do you like working out your problems alone or with others?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="32" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVA-9q-dLx">
+                                <rect key="frame" x="91" y="434" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Alone" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Yw1-Aa-Ocr"/>
+                                    <segue destination="Aoy-Yb-PIV" kind="presentation" modalPresentationStyle="fullScreen" id="fHG-xB-GRn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ge0-RJ-EaV">
+                                <rect key="frame" x="91" y="515" width="232" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="With others" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SadButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Wsf-d8-l23"/>
+                                    <segue destination="Lz4-3c-UDN" kind="presentation" modalPresentationStyle="fullScreen" id="njJ-5p-SBN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pqn-mj-hAy">
+                                <rect key="frame" x="118" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="kfi-DO-GAz">
+                                <rect key="frame" x="-40" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R8U-oz-Lr3"/>
+                        <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxj-YP-Kph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493" y="783"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kt2-Ny-HhL">
+            <objects>
+                <viewController id="Lz4-3c-UDN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jIi-yU-0gP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q5w-8z-TdX">
+                                <rect key="frame" x="120" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="l4f-N7-BWu">
+                                <rect key="frame" x="-38" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2F-Vz-GCQ">
+                                <rect key="frame" x="30" y="198" width="355" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Talk to a trusted friend">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="42" name="Verdana-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1635,8 +2390,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nus-eb-xQU">
-                                <rect key="frame" x="122" y="560" width="170" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6p6-UN-DBq">
+                                <rect key="frame" x="122" y="583" width="170" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1658,40 +2413,131 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="i3N-Bt-xEw"/>
-                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="Hvy-vR-z66"/>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="tg3-cY-Hiu"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="VvB-Of-0l5"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exerciseImage" translatesAutoresizingMaskIntoConstraints="NO" id="Qrk-9o-7YF">
-                                <rect key="frame" x="122" y="292" width="170" height="240"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 8.36.55 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="36A-U1-dlF">
+                                <rect key="frame" x="113" y="364" width="202" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1b-wV-Mal">
+                                <rect key="frame" x="293" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="GvN-IE-M1n"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="FVl-aI-nLK"/>
-                        <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="9aT-tg-zEZ"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="MoreInfo" destination="Nus-eb-xQU" id="lH4-u4-71P"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qNi-Ef-Lgd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jyw-jm-ZlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3360.8695652173915" y="2845.9821428571427"/>
+            <point key="canvasLocation" x="1237.68115942029" y="782.8125"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="6LS-UA-tts">
+        <scene sceneID="Nhl-1f-dnE">
             <objects>
-                <viewController id="kGV-Uh-j3k" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Zds-ol-btB">
+                <viewController id="Aoy-Yb-PIV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z5k-l2-a7M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="R8U-oz-Lr3"/>
-                        <color key="backgroundColor" red="0.76078431369999999" green="0.87843137250000003" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bottom2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rev-ig-hdk">
+                                <rect key="frame" x="119" y="661" width="383" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5MW-R7-6Vt">
+                                <rect key="frame" x="-39" y="0.0" width="283" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSB-H4-3XD">
+                                <rect key="frame" x="50" y="222" width="315" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Journal!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1225157753" green="0.31784287100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="60" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDc-7n-BdS">
+                                <rect key="frame" x="122" y="610" width="170" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="More Info">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="31" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MoreInfo:" destination="pS2-zE-22x" eventType="touchUpInside" id="zhG-gk-5pU"/>
+                                    <action selector="StressedButton:" destination="Q8f-TY-iEa" eventType="touchUpInside" id="PnE-tj-u75"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 8.35.38 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="f7G-pu-d7e">
+                                <rect key="frame" x="65" y="320" width="285" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeL-Jc-bU1">
+                                <rect key="frame" x="293" y="66" width="101" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.95278245210000001" green="0.94140106440000004" blue="0.76424837109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.9529411793" green="0.94117647410000005" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="wqn-eb-UlH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hg9-nd-0yz"/>
+                        <color key="backgroundColor" red="0.76205807920000002" green="0.87867689130000004" blue="0.65556699039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cxj-YP-Kph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="42E-90-FoP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="493" y="783"/>
+            <point key="canvasLocation" x="2053.6231884057975" y="782.8125"/>
         </scene>
         <!--Resources View Controller-->
         <scene sceneID="K9T-ok-yJh">
@@ -1805,16 +2651,24 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="fHG-xB-GRn"/>
         <segue reference="mON-v8-iAo"/>
         <segue reference="vbQ-Rw-oNz"/>
-        <segue reference="0Sq-Oc-3Br"/>
-        <segue reference="iQE-CI-bsl"/>
+        <segue reference="XRr-gF-pIU"/>
+        <segue reference="ReR-k9-QNw"/>
+        <segue reference="0uU-Ei-ajK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Bottom2.png" width="107" height="116"/>
+        <image name="Screen Shot 2022-08-04 at 8.35.38 AM.png" width="152" height="120"/>
+        <image name="Screen Shot 2022-08-04 at 8.36.55 AM.png" width="146" height="137"/>
+        <image name="Screen Shot 2022-08-04 at 8.47.41 AM.png" width="170" height="113"/>
         <image name="Top2.png" width="122" height="90"/>
+        <image name="coloring.png" width="131" height="122"/>
         <image name="exerciseImage" width="214" height="372"/>
+        <image name="music.png" width="140" height="158"/>
         <image name="walkingImage" width="298" height="384"/>
+        <image name="water.png" width="73" height="178"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
