@@ -12,6 +12,7 @@ class ResourcesViewController: UIViewController {
    
     @IBOutlet weak var hotline: UIButton!
     
+    @IBOutlet weak var articles: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +22,16 @@ class ResourcesViewController: UIViewController {
     
     @IBAction func hotline(_ sender: Any) {
         let url = URL (string:
-                "https://www.kodewithklossy.com/")!
+                "https://www.mentalhealth.gov/get-help/immediate-help")!
                 UIApplication.shared.open (url)
     }
     
-//    @IBAction func kwkbutton(_ sender: Any) {
+    @IBAction func articles(_ sender: Any) {
+        let url = URL (string:
+                "https://www.mentalhealthfirstaid.org/mental-health-resources/")!
+                UIApplication.shared.open (url)
+    }
+    //    @IBAction func kwkbutton(_ sender: Any) {
 //        let url = URL (string:
 //        "https://www.kodewithklossy.com/")!
 //        UIApplication.shared.open (url)
